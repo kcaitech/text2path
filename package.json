@@ -1,9 +1,9 @@
 {
-  "name": "@kcdesign/text2path",
-  "version": "0.0.1",
+  "name": "@kcaitech/text2path",
+  "version": "1.0.0",
   "private": false,
   "type": "module",
-  "description": "kcdesign text2path module",
+  "description": "kcaitech text2path module",
   "author": "kcaitech.com",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -15,16 +15,14 @@
     "dev": "tsc -w",
     "build": "rollup --config",
     "test": "jest",
-    "eslint": "eslint --ext .js,.ts,.vue src",
-    "madge": "madge --extensions ts --circular --image graph.svg src",
-    "schema": "tsx src/schema/script"
+    "eslint": "eslint --ext .js,.ts,.vue src"
   },
   "dependencies": {
+    "@kcaitech/potrace-ts": "^1.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/chai": "4.3.6",
     "@types/debug": "^4.1.7",

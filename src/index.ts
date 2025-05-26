@@ -1,4 +1,4 @@
-import { Potrace } from "./potrace";
+import { Potrace } from "@kcaitech/potrace-ts";
 
 const __caches: Map<string, string> = new Map();
 let __canvasElement: HTMLCanvasElement | undefined;
