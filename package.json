@@ -5,11 +5,17 @@
   "type": "module",
   "description": "kcaitech text2path module",
   "author": "kcaitech.com",
+  "license": "GPL-2.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcaitech/text2path.git"
+  },
   "publishConfig": {
-    "registry": "https://packages.aliyun.com/6393d698d690c872dceedcc0/npm/npm-registry/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "dev": "tsc -w",
@@ -47,7 +53,7 @@
     "not dead",
     "not ie 11"
   ],
-  "keywords": [],
+  "keywords": ["text to svg path", "potrace"],
   "productName": "kcdesign-core",
   "jest": {
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
